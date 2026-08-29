@@ -141,7 +141,7 @@ function App() {
           </div>
           <div className="hero-side reveal delay-1">
             <div className="portrait-card">
-              <div className="portrait-visual"><img className="portrait-photo" src="/Screenshot_2026-08-29_183503.png" alt="Portrait of Vinu J." /></div>
+              <div className="portrait-visual"><img className="portrait-photo" src={`${import.meta.env.BASE_URL}Screenshot_2026-08-29_183503.png`} alt="Portrait of Vinu J." /></div>
               <div className="portrait-caption"><span>Currently</span><strong>Building with<br />curiosity.</strong></div>
             </div>
             <div className="scroll-note"><span className="scroll-dot" /> Scroll to explore</div>
